@@ -1,0 +1,72 @@
+{
+  "crypto_list": [
+    "the-open-network",
+    "stellar",
+    "tron",
+    "binancecoin",
+    "solana",
+    "sui",
+    "pudgy-penguins",
+    "wrapped-steth",
+    "cardano",
+    "hyperliquid",
+    "tether",
+    "pump-fun",
+    "bitcoin",
+    "wrapped-bitcoin",
+    "ethereum",
+    "ripple",
+    "staked-ether",
+    "wrapped-beacon-eth",
+    "chainlink",
+    "bitcoin-cash"
+  ],
+  "stock_list": [
+    "AMZN",
+    "APPF",
+    "NVT",
+    "LCID",
+    "NVDA",
+    "AVTR",
+    "VALE",
+    "SOFI",
+    "BIO",
+    "RDDT",
+    "NIO",
+    "AAL",
+    "IRTC",
+    "TSLA",
+    "AMD",
+    "AAPL",
+    "F",
+    "WK",
+    "HOOD",
+    "INTC"
+  ],
+  "update_interval": 300,
+  "trading": {
+    "risk_per_trade": 0.01,
+    "stop_loss_pct": 0.02,
+    "take_profit_pct": 0.04,
+    "risk_free_rate": 0.02
+  },
+  "auto_selection": {
+    "enabled": true,
+    "crypto_count": 20,
+    "stock_count": 20,
+    "refresh_hours": 24,
+    "selection_strategy": "mixed_portfolio",
+    "exclude_cryptos": [],
+    "exclude_stocks": []
+  },
+  "strategy_params": {
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "sma_periods": [
+      20,
+      50,
+      200
+    ]
+  },
+  "last_asset_update": "2025-08-03T04:49:03.443944"
+}

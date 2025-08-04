@@ -1,0 +1,13 @@
+{
+    "api_key": "YOUR_API_KEY",
+    "crypto_list": [
+        "BTC",
+        "ETH",
+        "XRP"
+    ],
+    "stock_list": [
+        "AAPL",
+        "GOOGL",
+        "MSFT"
+    ]
+}

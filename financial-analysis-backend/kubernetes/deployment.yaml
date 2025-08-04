@@ -1,0 +1,262 @@
+# Kubernetes deployment configuration for Financial Analysis Bot
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: financial-analysis
+---
+# ConfigMap for application configuration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: financial-analysis
+data:
+  DATABASE_HOST: "postgresql-service"
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: "financial_analysis"
+  REDIS_HOST: "redis-service"
+  REDIS_PORT: "6379"
+  KAFKA_BROKERS: "kafka-service:9092"
+  LOG_LEVEL: "INFO"
+---
+# Secret for sensitive data
+apiVersion: v1
+kind: Secret
+metadata:
+  name: app-secrets
+  namespace: financial-analysis
+type: Opaque
+stringData:
+  DATABASE_PASSWORD: "your-db-password"
+  ALPHA_VANTAGE_API_KEY: "your-alpha-vantage-key"
+  POLYGON_API_KEY: "your-polygon-key"
+  NEWS_API_KEY: "your-news-api-key"
+  JWT_SECRET: "your-jwt-secret"
+---
+# API Gateway Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-gateway
+  namespace: financial-analysis
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+      - name: api-gateway
+        image: financial-analysis/api-gateway:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DATABASE_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: DATABASE_PASSWORD
+        envFrom:
+        - configMapRef:
+            name: app-config
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+---
+# Data Ingestion Service
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-ingestion
+  namespace: financial-analysis
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: data-ingestion
+  template:
+    metadata:
+      labels:
+        app: data-ingestion
+    spec:
+      containers:
+      - name: data-ingestion
+        image: financial-analysis/data-ingestion:latest
+        env:
+        - name: ALPHA_VANTAGE_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: ALPHA_VANTAGE_API_KEY
+        - name: POLYGON_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: POLYGON_API_KEY
+        envFrom:
+        - configMapRef:
+            name: app-config
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+---
+# ML Processing Service
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ml-processing
+  namespace: financial-analysis
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ml-processing
+  template:
+    metadata:
+      labels:
+        app: ml-processing
+    spec:
+      containers:
+      - name: ml-processing
+        image: financial-analysis/ml-processing:latest
+        envFrom:
+        - configMapRef:
+            name: app-config
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "1000m"
+          limits:
+            memory: "4Gi"
+            cpu: "2000m"
+        volumeMounts:
+        - name: model-storage
+          mountPath: /app/models
+      volumes:
+      - name: model-storage
+        persistentVolumeClaim:
+          claimName: model-storage-pvc
+---
+# WebSocket Service for Real-time Updates
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: websocket-service
+  namespace: financial-analysis
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: websocket-service
+  template:
+    metadata:
+      labels:
+        app: websocket-service
+    spec:
+      containers:
+      - name: websocket-service
+        image: financial-analysis/websocket-service:latest
+        ports:
+        - containerPort: 8001
+        envFrom:
+        - configMapRef:
+            name: app-config
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+---
+# Horizontal Pod Autoscaler for API Gateway
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: api-gateway-hpa
+  namespace: financial-analysis
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: api-gateway
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+---
+# Services
+apiVersion: v1
+kind: Service
+metadata:
+  name: api-gateway-service
+  namespace: financial-analysis
+spec:
+  selector:
+    app: api-gateway
+  ports:
+  - port: 80
+    targetPort: 8000
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: websocket-service
+  namespace: financial-analysis
+spec:
+  selector:
+    app: websocket-service
+  ports:
+  - port: 8001
+    targetPort: 8001
+  type: ClusterIP
+---
+# Persistent Volume Claim for ML Models
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: model-storage-pvc
+  namespace: financial-analysis
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: fast-ssd

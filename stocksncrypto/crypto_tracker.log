@@ -1,0 +1,520 @@
+2025-06-27 01:04:47,100 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 01:04:47,101 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 01:04:47,102 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 01:04:48,221 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:04:48,224 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:05:13,320 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:05:42,293 - ml_models - ERROR - Error training ML model: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-06-27 01:10:43,136 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:10:43,156 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:10:50,935 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:12:39,575 - ml_models - ERROR - Error training ML model: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-06-27 01:12:49,982 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-27 01:12:49,983 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-27 01:13:00,311 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 01:13:00,312 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 01:13:00,312 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 01:13:01,071 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:13:01,073 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:13:17,674 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:13:29,130 - ml_models - INFO - Training ML model with AAPL data...
+2025-06-27 01:13:31,591 - ml_models - ERROR - No close price column found
+2025-06-27 01:13:50,184 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-27 01:13:50,185 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-27 01:20:58,459 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 01:20:58,459 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 01:20:58,459 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 01:20:59,476 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:20:59,483 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:21:15,878 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:22:10,403 - ml_models - INFO - Training ML model with AAPL data...
+2025-06-27 01:22:12,420 - ml_models - INFO - DataFrame shape: (1378, 6)
+2025-06-27 01:22:12,420 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-06-27 01:22:12,421 - ml_models - INFO - DataFrame index: Date
+2025-06-27 01:22:12,422 - ml_models - INFO - Flattening MultiIndex columns
+2025-06-27 01:22:12,423 - ml_models - INFO - Flattened columns: ["(_'_D_a_t_e_'_,_ _'_'_)", "(_'_A_d_j_ _C_l_o_s_e_'_,_ _'_A_A_P_L_'_)", "(_'_C_l_o_s_e_'_,_ _'_A_A_P_L_'_)", "(_'_H_i_g_h_'_,_ _'_A_A_P_L_'_)", "(_'_L_o_w_'_,_ _'_A_A_P_L_'_)", "(_'_O_p_e_n_'_,_ _'_A_A_P_L_'_)", "(_'_V_o_l_u_m_e_'_,_ _'_A_A_P_L_'_)"]
+2025-06-27 01:22:12,423 - ml_models - ERROR - No close price column found. Available columns: ["(_'_D_a_t_e_'_,_ _'_'_)", "(_'_A_d_j_ _C_l_o_s_e_'_,_ _'_A_A_P_L_'_)", "(_'_C_l_o_s_e_'_,_ _'_A_A_P_L_'_)", "(_'_H_i_g_h_'_,_ _'_A_A_P_L_'_)", "(_'_L_o_w_'_,_ _'_A_A_P_L_'_)", "(_'_O_p_e_n_'_,_ _'_A_A_P_L_'_)", "(_'_V_o_l_u_m_e_'_,_ _'_A_A_P_L_'_)"]
+2025-06-27 01:24:44,854 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-27 01:24:44,855 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-27 01:24:50,725 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 01:24:50,725 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 01:24:50,726 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 01:24:51,416 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:24:51,418 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:25:08,531 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:25:13,574 - ml_models - INFO - Training ML model with AAPL data...
+2025-06-27 01:25:15,331 - ml_models - INFO - DataFrame shape: (1378, 6)
+2025-06-27 01:25:15,332 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-06-27 01:25:15,332 - ml_models - INFO - DataFrame index: Date
+2025-06-27 01:25:15,334 - ml_models - INFO - Found MultiIndex columns, handling properly...
+2025-06-27 01:25:15,335 - ml_models - INFO - Simplified columns: ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+2025-06-27 01:25:15,335 - ml_models - INFO - Using column 'Close' as Close price
+2025-06-27 01:25:15,349 - ml_models - INFO - Close price range: $56.09 - $259.02
+2025-06-27 01:25:15,366 - ml_models - INFO - Successfully calculated technical features
+2025-06-27 01:25:15,368 - ml_models - INFO - Successfully created labels
+2025-06-27 01:25:15,383 - ml_models - INFO - Label distribution: {0: np.int64(547), 1: np.int64(469), -1: np.int64(343)}
+2025-06-27 01:25:15,384 - ml_models - INFO - Training with 1359 samples and 5 features
+2025-06-27 01:25:16,449 - ml_models - INFO - Model trained and saved to ml_model.joblib
+2025-06-27 01:28:55,054 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-27 01:28:55,055 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-27 01:29:03,709 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 01:29:03,711 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 01:29:03,711 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 01:29:04,552 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:29:04,557 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:29:21,970 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 01:35:24,357 - __main__ - INFO - Fetched crypto prices for 5 coins
+2025-06-27 01:35:24,364 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 01:35:32,138 - __main__ - INFO - Fetched stock prices for 5 stocks
+2025-06-27 02:33:02,044 - __main__ - ERROR - Error fetching crypto prices: HTTPSConnectionPool(host='api.coingecko.com', port=443): Max retries exceeded with url: /api/v3/simple/price?ids=bitcoin,ethereum,cardano,polkadot,chainlink&vs_currencies=usd,aud,eur (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000229D38CC550>: Failed to resolve 'api.coingecko.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-27 02:33:02,056 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 02:33:14,088 - yfinance - ERROR - $AAPL: possibly delisted; no price data found  (period=6mo)
+2025-06-27 02:33:14,090 - root - WARNING - No history for AAPL
+2025-06-27 02:33:26,132 - yfinance - ERROR - $MSFT: possibly delisted; no price data found  (period=6mo)
+2025-06-27 02:33:26,134 - root - WARNING - No history for MSFT
+2025-06-27 02:33:38,185 - yfinance - ERROR - $GOOGL: possibly delisted; no price data found  (period=6mo)
+2025-06-27 02:33:38,187 - root - WARNING - No history for GOOGL
+2025-06-27 02:33:50,221 - yfinance - ERROR - $TSLA: possibly delisted; no price data found  (period=6mo)
+2025-06-27 02:33:50,222 - root - WARNING - No history for TSLA
+2025-06-27 02:34:02,273 - yfinance - ERROR - $NVDA: possibly delisted; no price data found  (period=6mo)
+2025-06-27 02:34:02,273 - root - WARNING - No history for NVDA
+2025-06-27 02:34:02,280 - yfinance - ERROR - $AAPL: possibly delisted; no price data found  (period=1d)
+2025-06-27 02:34:02,281 - root - WARNING - No history for AAPL
+2025-06-27 02:34:02,281 - __main__ - WARNING - No valid close price for AAPL
+2025-06-27 02:34:02,285 - yfinance - ERROR - $MSFT: possibly delisted; no price data found  (period=1d)
+2025-06-27 02:34:02,287 - root - WARNING - No history for MSFT
+2025-06-27 02:34:02,288 - __main__ - WARNING - No valid close price for MSFT
+2025-06-27 02:34:02,293 - yfinance - ERROR - $GOOGL: possibly delisted; no price data found  (period=1d)
+2025-06-27 02:34:02,294 - root - WARNING - No history for GOOGL
+2025-06-27 02:34:02,294 - __main__ - WARNING - No valid close price for GOOGL
+2025-06-27 02:34:02,298 - yfinance - ERROR - $TSLA: possibly delisted; no price data found  (period=1d)
+2025-06-27 02:34:02,298 - root - WARNING - No history for TSLA
+2025-06-27 02:34:02,298 - __main__ - WARNING - No valid close price for TSLA
+2025-06-27 02:34:02,302 - yfinance - ERROR - $NVDA: possibly delisted; no price data found  (period=1d)
+2025-06-27 02:34:02,302 - root - WARNING - No history for NVDA
+2025-06-27 02:34:02,303 - __main__ - WARNING - No valid close price for NVDA
+2025-06-27 02:34:02,303 - __main__ - INFO - Fetched stock prices for 0 stocks
+2025-06-27 02:50:25,522 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-27 02:50:25,524 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-27 02:50:42,110 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 02:50:42,112 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 02:50:42,113 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 02:50:42,114 - __main__ - ERROR - Failed to start: 'CryptoTracker' object has no attribute 'logger'
+2025-06-27 02:51:59,243 - __main__ - INFO - Crypto Tracker initialized
+2025-06-27 02:51:59,244 - __main__ - INFO - Tracking 5 cryptos and 5 stocks
+2025-06-27 02:51:59,245 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-27 02:51:59,327 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-06-27 02:51:59,328 - asset_selector - INFO - Fetching top 12 cryptos by market_cap...
+2025-06-27 02:52:00,038 - asset_selector - INFO - Selected 12 cryptos: ['bitcoin', 'ethereum', 'tether', 'ripple', 'binancecoin']...
+2025-06-27 02:52:00,077 - asset_selector - INFO - Fetching 5 trending cryptos...
+2025-06-27 02:52:00,423 - asset_selector - INFO - Found 5 trending cryptos
+2025-06-27 02:52:00,437 - asset_selector - INFO - Fetching top 3 cryptos by volume...
+2025-06-27 02:52:01,672 - asset_selector - INFO - Selected 3 cryptos: ['tether', 'bitcoin', 'ethereum']...
+2025-06-27 02:52:01,750 - asset_selector - INFO - Fetching top 15 cryptos by market_cap...
+2025-06-27 02:52:02,389 - asset_selector - INFO - Selected 15 cryptos: ['bitcoin', 'ethereum', 'tether', 'ripple', 'binancecoin']...
+2025-06-27 02:52:02,391 - asset_selector - INFO - Created crypto portfolio: 20 assets
+2025-06-27 02:52:02,392 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-06-27 02:52:02,394 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-06-27 02:52:02,905 - asset_selector - INFO - Selected 14 active stocks: ['NVDA', 'QS', 'LCID', 'NU', 'TSLA']...
+2025-06-27 02:52:02,907 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-06-27 02:52:03,417 - asset_selector - INFO - Selected 6 top performers
+2025-06-27 02:52:03,419 - asset_selector - INFO - Fetching top 15 stocks by volume...
+2025-06-27 02:52:04,029 - asset_selector - INFO - Selected 15 active stocks: ['NVDA', 'QS', 'LCID', 'NU', 'TSLA']...
+2025-06-27 02:52:04,032 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-06-27 02:52:04,039 - config_manager - INFO - Configuration saved successfully
+2025-06-27 02:52:04,040 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-06-27 02:52:04,949 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 02:52:04,968 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 02:52:28,517 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 02:52:37,883 - ml_models - INFO - Training ML model with AAPL data...
+2025-06-27 02:52:38,578 - ml_models - INFO - DataFrame shape: (1378, 6)
+2025-06-27 02:52:38,582 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-06-27 02:52:38,583 - ml_models - INFO - DataFrame index: Date
+2025-06-27 02:52:38,589 - ml_models - INFO - Found MultiIndex columns, handling properly...
+2025-06-27 02:52:38,589 - ml_models - INFO - Simplified columns: ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+2025-06-27 02:52:38,590 - ml_models - INFO - Using column 'Close' as Close price
+2025-06-27 02:52:38,595 - ml_models - INFO - Close price range: $56.09 - $259.02
+2025-06-27 02:52:38,603 - ml_models - INFO - Successfully calculated technical features
+2025-06-27 02:52:38,606 - ml_models - INFO - Successfully created labels
+2025-06-27 02:52:38,620 - ml_models - INFO - Label distribution: {0: np.int64(547), 1: np.int64(469), -1: np.int64(343)}
+2025-06-27 02:52:38,621 - ml_models - INFO - Training with 1359 samples and 5 features
+2025-06-27 02:52:39,966 - ml_models - INFO - Model trained and saved to ml_model.joblib
+2025-06-27 02:57:40,922 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 02:57:40,928 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 02:57:50,569 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 03:02:51,193 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 03:02:51,200 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 03:03:00,217 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 03:08:01,363 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 03:08:01,373 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 03:08:12,025 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 03:13:12,452 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 03:13:12,459 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 03:13:21,891 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 03:13:42,152 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 03:13:46,775 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-27 03:18:47,195 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-27 03:18:47,202 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-27 03:18:55,817 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:05:12,200 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-06-28 15:05:12,210 - asset_selector - INFO - Fetching top 12 cryptos by market_cap...
+2025-06-28 15:05:12,893 - asset_selector - INFO - Selected 12 cryptos: ['bitcoin', 'ethereum', 'tether', 'ripple', 'binancecoin']...
+2025-06-28 15:05:12,895 - asset_selector - INFO - Fetching 5 trending cryptos...
+2025-06-28 15:05:13,089 - asset_selector - INFO - Found 5 trending cryptos
+2025-06-28 15:05:13,091 - asset_selector - INFO - Fetching top 3 cryptos by volume...
+2025-06-28 15:05:13,696 - asset_selector - INFO - Selected 3 cryptos: ['bitcoin', 'tether', 'ethereum']...
+2025-06-28 15:05:13,697 - asset_selector - INFO - Fetching top 15 cryptos by market_cap...
+2025-06-28 15:05:14,223 - asset_selector - INFO - Selected 15 cryptos: ['bitcoin', 'ethereum', 'tether', 'ripple', 'binancecoin']...
+2025-06-28 15:05:14,224 - asset_selector - INFO - Created crypto portfolio: 19 assets
+2025-06-28 15:05:14,224 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-06-28 15:05:14,225 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-06-28 15:05:14,650 - asset_selector - INFO - Selected 14 active stocks: ['LCID', 'NVDA', 'PLTR', 'F', 'QS']...
+2025-06-28 15:05:14,652 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-06-28 15:05:14,929 - asset_selector - INFO - Selected 6 top performers
+2025-06-28 15:05:14,930 - asset_selector - INFO - Fetching top 15 stocks by volume...
+2025-06-28 15:05:15,347 - asset_selector - INFO - Selected 15 active stocks: ['LCID', 'NVDA', 'PLTR', 'F', 'QS']...
+2025-06-28 15:05:15,348 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-06-28 15:05:15,354 - config_manager - INFO - Configuration saved successfully
+2025-06-28 15:05:15,354 - config_manager - INFO - Updated assets: 19 cryptos, 20 stocks
+2025-06-28 15:10:16,082 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:10:16,089 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-28 15:10:39,433 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:19:49,739 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-28 15:19:49,745 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-28 15:20:27,328 - __main__ - INFO - Crypto Tracker initialized
+2025-06-28 15:20:27,329 - __main__ - INFO - Tracking 19 cryptos and 20 stocks
+2025-06-28 15:20:27,329 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-28 15:20:28,017 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:20:28,026 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-28 15:20:51,070 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:21:06,212 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:21:11,542 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:21:24,733 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-28 15:21:24,734 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-28 15:21:48,492 - __main__ - INFO - Crypto Tracker initialized
+2025-06-28 15:21:48,493 - __main__ - INFO - Tracking 19 cryptos and 20 stocks
+2025-06-28 15:21:48,493 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-28 15:21:49,528 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:21:49,534 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-28 15:22:05,308 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:22:10,520 - ml_models - INFO - Training ML model with AAPL data...
+2025-06-28 15:22:11,312 - ml_models - INFO - DataFrame shape: (1379, 6)
+2025-06-28 15:22:11,314 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-06-28 15:22:11,315 - ml_models - INFO - DataFrame index: Date
+2025-06-28 15:22:11,320 - ml_models - INFO - Found MultiIndex columns, handling properly...
+2025-06-28 15:22:11,322 - ml_models - INFO - Simplified columns: ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+2025-06-28 15:22:11,323 - ml_models - INFO - Using column 'Close' as Close price
+2025-06-28 15:22:11,324 - ml_models - INFO - Close price range: $56.09 - $259.02
+2025-06-28 15:22:11,333 - ml_models - INFO - Successfully calculated technical features
+2025-06-28 15:22:11,339 - ml_models - INFO - Successfully created labels
+2025-06-28 15:22:11,346 - ml_models - INFO - Label distribution: {0: np.int64(547), 1: np.int64(470), -1: np.int64(343)}
+2025-06-28 15:22:11,347 - ml_models - INFO - Training with 1360 samples and 5 features
+2025-06-28 15:22:12,547 - ml_models - INFO - Model trained and saved to ml_model.joblib
+2025-06-28 15:27:13,313 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:27:13,325 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-28 15:27:22,953 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:38:03,684 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-28 15:38:03,685 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-28 15:38:09,388 - __main__ - INFO - Crypto Tracker initialized
+2025-06-28 15:38:09,388 - __main__ - INFO - Tracking 19 cryptos and 20 stocks
+2025-06-28 15:38:09,391 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-28 15:38:10,099 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:38:10,183 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-28 15:38:37,649 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-28 15:38:46,556 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-28 15:38:51,684 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-29 12:36:30,935 - __main__ - INFO - Fetched crypto prices for 19 coins
+2025-06-29 12:36:30,954 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-29 12:36:44,276 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 09:30:19,962 - __main__ - INFO - ? Auto-refreshing assets...
+2025-06-30 09:30:20,096 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-06-30 09:30:20,097 - asset_selector - INFO - Fetching top 12 cryptos by market_cap...
+2025-06-30 09:30:20,819 - asset_selector - INFO - Selected 12 quality cryptos
+2025-06-30 09:30:20,820 - asset_selector - INFO - Fetching 5 trending cryptos...
+2025-06-30 09:30:21,036 - asset_selector - INFO - Found 5 trending cryptos
+2025-06-30 09:30:21,037 - asset_selector - INFO - Fetching top 3 cryptos by volume...
+2025-06-30 09:30:21,636 - asset_selector - INFO - Selected 3 quality cryptos
+2025-06-30 09:30:21,638 - asset_selector - INFO - Fetching top 15 cryptos by market_cap...
+2025-06-30 09:30:22,357 - asset_selector - INFO - Selected 15 quality cryptos
+2025-06-30 09:30:22,358 - asset_selector - INFO - Created crypto portfolio: 20 assets
+2025-06-30 09:30:22,358 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-06-30 09:30:22,358 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-06-30 09:30:22,875 - asset_selector - INFO - Selected 14 active stocks: ['NVDA', 'PLTR', 'LCID', 'NU', 'F']...
+2025-06-30 09:30:22,876 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-06-30 09:30:23,279 - asset_selector - INFO - Selected 6 top performers
+2025-06-30 09:30:23,280 - asset_selector - INFO - Fetching top 15 stocks by volume...
+2025-06-30 09:30:23,808 - asset_selector - INFO - Selected 15 active stocks: ['NVDA', 'PLTR', 'LCID', 'NU', 'F']...
+2025-06-30 09:30:23,809 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-06-30 09:30:23,814 - config_manager - INFO - Configuration saved successfully
+2025-06-30 09:30:23,816 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-06-30 09:30:24,395 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 09:30:24,400 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-30 09:30:36,497 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 13:53:22,015 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-30 13:53:22,026 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-30 13:54:28,863 - __main__ - INFO - Crypto Tracker initialized
+2025-06-30 13:54:28,864 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-06-30 13:54:28,865 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-30 13:54:29,739 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 13:54:29,744 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-30 13:55:11,211 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 13:55:22,673 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 13:55:27,394 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 13:56:01,755 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-30 13:56:01,756 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-30 13:56:22,579 - __main__ - INFO - Crypto Tracker initialized
+2025-06-30 13:56:22,580 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-06-30 13:56:22,580 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-30 13:56:23,210 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 13:56:23,218 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-30 13:56:52,690 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 14:02:00,349 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 14:02:00,356 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-30 14:02:15,858 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-06-30 15:16:54,419 - __main__ - INFO - Crypto Tracker stopped by user
+2025-06-30 15:16:54,940 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-06-30 15:17:44,270 - __main__ - INFO - Crypto Tracker initialized
+2025-06-30 15:17:44,272 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-06-30 15:17:44,273 - __main__ - INFO - Starting Crypto Tracker...
+2025-06-30 15:17:48,847 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-06-30 15:17:48,856 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-06-30 15:19:02,986 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:07:35,357 - __main__ - INFO - Crypto Tracker stopped by user
+2025-07-02 13:07:35,540 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-07-02 13:09:01,439 - __main__ - INFO - Crypto Tracker initialized
+2025-07-02 13:09:01,440 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-02 13:09:01,440 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-02 13:09:01,441 - __main__ - INFO - ? Auto-refreshing assets...
+2025-07-02 13:09:01,510 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-02 13:09:01,511 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-02 13:09:02,273 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-02 13:09:02,278 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-02 13:09:02,452 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-02 13:09:02,474 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-02 13:09:02,986 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-02 13:09:03,012 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-02 13:09:03,611 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-02 13:09:03,637 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-02 13:09:03,638 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-02 13:09:03,641 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-02 13:09:04,170 - asset_selector - INFO - Selected 14 active stocks: ['LCID', 'NVDA', 'TSLA', 'F', 'HOOD']...
+2025-07-02 13:09:04,171 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-02 13:09:04,549 - asset_selector - INFO - Selected 6 top performers
+2025-07-02 13:09:04,644 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-02 13:09:04,685 - config_manager - INFO - Configuration saved successfully
+2025-07-02 13:09:04,687 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-02 13:09:05,544 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:09:05,561 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 13:09:51,116 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:10:20,536 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-02 13:10:20,537 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-02 13:10:21,325 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-02 13:10:21,326 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-02 13:10:21,485 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-02 13:10:21,486 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-02 13:10:22,137 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-02 13:10:22,139 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-02 13:10:22,859 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-02 13:10:22,860 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-02 13:10:22,861 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-02 13:10:22,861 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-02 13:10:23,541 - asset_selector - INFO - Selected 14 active stocks: ['LCID', 'NVDA', 'TSLA', 'F', 'HOOD']...
+2025-07-02 13:10:23,543 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-02 13:10:23,896 - asset_selector - INFO - Selected 6 top performers
+2025-07-02 13:10:23,898 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-02 13:10:46,317 - config_manager - INFO - Configuration saved successfully
+2025-07-02 13:10:46,324 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-02 13:15:47,358 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:15:47,379 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 13:16:02,624 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:16:21,505 - ml_models - INFO - Training ML model with AAPL data...
+2025-07-02 13:16:22,570 - ml_models - INFO - DataFrame shape: (1381, 6)
+2025-07-02 13:16:22,571 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-07-02 13:16:22,571 - ml_models - INFO - DataFrame index: Date
+2025-07-02 13:16:22,579 - ml_models - INFO - Found MultiIndex columns, handling properly...
+2025-07-02 13:16:22,580 - ml_models - INFO - Simplified columns: ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+2025-07-02 13:16:22,580 - ml_models - INFO - Using column 'Close' as Close price
+2025-07-02 13:16:22,583 - ml_models - INFO - Close price range: $56.09 - $259.02
+2025-07-02 13:16:22,594 - ml_models - INFO - Successfully calculated technical features
+2025-07-02 13:16:22,597 - ml_models - INFO - Successfully created labels
+2025-07-02 13:16:22,609 - ml_models - INFO - Label distribution: {0: np.int64(548), 1: np.int64(471), -1: np.int64(343)}
+2025-07-02 13:16:22,610 - ml_models - INFO - Training with 1362 samples and 5 features
+2025-07-02 13:16:23,751 - ml_models - INFO - Model trained and saved to ml_model.joblib
+2025-07-02 13:16:48,678 - __main__ - INFO - Crypto Tracker stopped by user
+2025-07-02 13:16:48,679 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-07-02 13:24:00,613 - __main__ - INFO - Crypto Tracker initialized
+2025-07-02 13:24:00,615 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-02 13:24:00,616 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-02 13:24:01,536 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:24:01,545 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 13:24:39,501 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:30:50,736 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:30:50,744 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 13:31:03,868 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:37:17,894 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:37:23,284 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 13:42:23,965 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 13:42:23,974 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 13:42:38,834 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-02 14:10:33,103 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-02 14:10:33,130 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-02 14:10:49,568 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-03 00:46:47,242 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-03 00:46:47,257 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-03 00:46:57,701 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-03 15:38:06,534 - __main__ - INFO - Crypto Tracker initialized
+2025-07-03 15:38:06,536 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-03 15:38:06,537 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-03 15:38:06,539 - __main__ - INFO - ? Auto-refreshing assets...
+2025-07-03 15:38:06,619 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-03 15:38:06,620 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-03 15:38:07,332 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-03 15:38:07,335 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-03 15:38:07,635 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-03 15:38:07,636 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-03 15:38:08,348 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-03 15:38:08,351 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-03 15:38:09,169 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-03 15:38:09,171 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-03 15:38:09,174 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-03 15:38:09,174 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-03 15:38:09,884 - asset_selector - INFO - Selected 14 active stocks: ['NVDA', 'INTC', 'F', 'LCID', 'TSLA']...
+2025-07-03 15:38:09,887 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-03 15:38:10,494 - asset_selector - INFO - Selected 6 top performers
+2025-07-03 15:38:10,496 - asset_selector - INFO - Fetching top 16 stocks by volume...
+2025-07-03 15:38:11,325 - asset_selector - INFO - Selected 16 active stocks: ['NVDA', 'INTC', 'F', 'LCID', 'TSLA']...
+2025-07-03 15:38:11,329 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-03 15:38:11,335 - config_manager - INFO - Configuration saved successfully
+2025-07-03 15:38:11,345 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-03 15:38:12,239 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-03 15:38:12,266 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-03 15:38:47,885 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-08 15:10:45,282 - __main__ - INFO - ? Auto-refreshing assets...
+2025-07-08 15:10:45,302 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-08 15:10:45,304 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-08 15:10:45,890 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-08 15:10:45,892 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-08 15:10:46,197 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-08 15:10:46,197 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-08 15:10:46,912 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-08 15:10:46,913 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-08 15:10:47,631 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-08 15:10:47,631 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-08 15:10:47,632 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-08 15:10:47,633 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-08 15:10:48,348 - asset_selector - INFO - Selected 14 active stocks: ['LCID', 'NVDA', 'TSLA', 'CORZ', 'SOFI']...
+2025-07-08 15:10:48,350 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-08 15:10:48,655 - asset_selector - INFO - Selected 6 top performers
+2025-07-08 15:10:48,656 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-08 15:10:48,660 - config_manager - INFO - Configuration saved successfully
+2025-07-08 15:10:48,662 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-08 15:10:55,614 - __main__ - INFO - Crypto Tracker stopped by user
+2025-07-08 15:10:55,615 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-07-08 15:11:27,459 - __main__ - INFO - Crypto Tracker initialized
+2025-07-08 15:11:27,460 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-08 15:11:27,461 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-08 15:11:28,080 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-08 15:11:28,103 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-08 15:12:01,268 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-08 15:12:22,979 - __main__ - INFO - Crypto Tracker stopped by user
+2025-07-08 15:12:22,980 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-07-08 15:12:29,041 - __main__ - INFO - Crypto Tracker initialized
+2025-07-08 15:12:29,041 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-08 15:12:29,042 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-08 15:12:29,519 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-08 15:12:29,529 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-08 15:12:57,076 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-08 15:13:22,042 - ml_models - INFO - Training ML model with AAPL data...
+2025-07-08 15:13:22,806 - ml_models - INFO - DataFrame shape: (1384, 6)
+2025-07-08 15:13:22,809 - ml_models - INFO - DataFrame columns: [('Adj Close', 'AAPL'), ('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+2025-07-08 15:13:22,810 - ml_models - INFO - DataFrame index: Date
+2025-07-08 15:13:22,813 - ml_models - INFO - Found MultiIndex columns, handling properly...
+2025-07-08 15:13:22,813 - ml_models - INFO - Simplified columns: ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
+2025-07-08 15:13:22,814 - ml_models - INFO - Using column 'Close' as Close price
+2025-07-08 15:13:22,817 - ml_models - INFO - Close price range: $56.09 - $259.02
+2025-07-08 15:13:22,828 - ml_models - INFO - Successfully calculated technical features
+2025-07-08 15:13:22,832 - ml_models - INFO - Successfully created labels
+2025-07-08 15:13:22,838 - ml_models - INFO - Label distribution: {0: np.int64(548), 1: np.int64(474), -1: np.int64(343)}
+2025-07-08 15:13:22,838 - ml_models - INFO - Training with 1365 samples and 5 features
+2025-07-08 15:13:23,997 - ml_models - INFO - Model trained and saved to ml_model.joblib
+2025-07-08 15:16:24,917 - __main__ - INFO - Crypto Tracker stopped by user
+2025-07-08 15:16:24,919 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-07-27 22:59:00,923 - __main__ - INFO - Crypto Tracker initialized
+2025-07-27 22:59:00,924 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-27 22:59:00,925 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-27 22:59:00,925 - __main__ - INFO - ? Auto-refreshing assets...
+2025-07-27 22:59:00,967 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-27 22:59:00,968 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-27 22:59:01,549 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-27 22:59:01,553 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-27 22:59:01,753 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-27 22:59:01,757 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-27 22:59:02,414 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-27 22:59:02,418 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-27 22:59:02,986 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-27 22:59:02,989 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-27 22:59:02,991 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-27 22:59:02,992 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-27 22:59:03,463 - asset_selector - INFO - Selected 14 active stocks: ['INTC', 'TSLA', 'NVDA', 'WBD', 'LCID']...
+2025-07-27 22:59:03,464 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-27 22:59:03,919 - asset_selector - INFO - Selected 6 top performers
+2025-07-27 22:59:03,922 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-27 22:59:03,932 - config_manager - INFO - Configuration saved successfully
+2025-07-27 22:59:03,934 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-27 22:59:04,514 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-27 22:59:04,533 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-27 22:59:37,598 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-27 23:04:46,032 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-27 23:04:46,042 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-27 23:05:01,183 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-30 01:21:31,932 - __main__ - INFO - Crypto Tracker initialized
+2025-07-30 01:21:31,933 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-07-30 01:21:31,933 - __main__ - INFO - Starting Crypto Tracker...
+2025-07-30 01:21:31,933 - __main__ - INFO - ? Auto-refreshing assets...
+2025-07-30 01:21:31,963 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-07-30 01:21:31,963 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-07-30 01:21:32,591 - asset_selector - INFO - Selected 14 quality cryptos
+2025-07-30 01:21:32,593 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-07-30 01:21:32,798 - asset_selector - INFO - Found 4 trending cryptos
+2025-07-30 01:21:32,801 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-07-30 01:21:33,409 - asset_selector - INFO - Selected 2 quality cryptos
+2025-07-30 01:21:33,413 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-07-30 01:21:34,140 - asset_selector - INFO - Selected 50 quality cryptos
+2025-07-30 01:21:34,143 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-07-30 01:21:34,145 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-07-30 01:21:34,146 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-07-30 01:21:34,748 - asset_selector - INFO - Selected 14 active stocks: ['SOFI', 'NVO', 'NVDA', 'LCID', 'AMD']...
+2025-07-30 01:21:34,752 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-07-30 01:21:35,253 - asset_selector - INFO - Selected 6 top performers
+2025-07-30 01:21:35,257 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-07-30 01:21:35,267 - config_manager - INFO - Configuration saved successfully
+2025-07-30 01:21:35,272 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-07-30 01:21:35,865 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-07-30 01:21:35,874 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-07-30 01:22:03,211 - __main__ - INFO - Fetched stock prices for 20 stocks
+2025-07-30 01:33:22,991 - __main__ - INFO - Crypto Tracker shutdown complete
+2025-08-03 04:49:00,174 - __main__ - INFO - Crypto Tracker initialized
+2025-08-03 04:49:00,175 - __main__ - INFO - Tracking 20 cryptos and 20 stocks
+2025-08-03 04:49:00,175 - __main__ - INFO - Starting Crypto Tracker...
+2025-08-03 04:49:00,175 - __main__ - INFO - ? Auto-refreshing assets...
+2025-08-03 04:49:00,194 - asset_selector - INFO - Creating mixed crypto portfolio of 20 assets...
+2025-08-03 04:49:00,194 - asset_selector - INFO - Fetching top 14 cryptos by market_cap...
+2025-08-03 04:49:00,856 - asset_selector - INFO - Selected 14 quality cryptos
+2025-08-03 04:49:00,857 - asset_selector - INFO - Fetching 4 trending cryptos...
+2025-08-03 04:49:01,162 - asset_selector - INFO - Found 4 trending cryptos
+2025-08-03 04:49:01,163 - asset_selector - INFO - Fetching top 2 cryptos by volume...
+2025-08-03 04:49:01,978 - asset_selector - INFO - Selected 2 quality cryptos
+2025-08-03 04:49:01,985 - asset_selector - INFO - Fetching top 50 cryptos by market_cap...
+2025-08-03 04:49:02,602 - asset_selector - INFO - Selected 50 quality cryptos
+2025-08-03 04:49:02,603 - asset_selector - INFO - Created crypto portfolio: 20 quality assets
+2025-08-03 04:49:02,614 - asset_selector - INFO - Creating mixed stock portfolio of 20 assets...
+2025-08-03 04:49:02,614 - asset_selector - INFO - Fetching top 14 stocks by volume...
+2025-08-03 04:49:03,086 - asset_selector - INFO - Selected 14 active stocks: ['NVDA', 'AMZN', 'LCID', 'VALE', 'TSLA']...
+2025-08-03 04:49:03,087 - asset_selector - INFO - Fetching top 6 performing stocks (1d)...
+2025-08-03 04:49:03,437 - asset_selector - INFO - Selected 6 top performers
+2025-08-03 04:49:03,439 - asset_selector - INFO - Created stock portfolio: 20 assets
+2025-08-03 04:49:03,447 - config_manager - INFO - Configuration saved successfully
+2025-08-03 04:49:03,448 - config_manager - INFO - Updated assets: 20 cryptos, 20 stocks
+2025-08-03 04:49:03,864 - __main__ - INFO - Fetched crypto prices for 20 coins
+2025-08-03 04:49:03,877 - __main__ - INFO - Saved crypto prices to crypto_prices.csv
+2025-08-03 04:49:30,161 - __main__ - INFO - Fetched stock prices for 20 stocks
