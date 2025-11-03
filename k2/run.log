@@ -1,0 +1,4 @@
+2025-10-31 14:20:30,282 INFO Filters: Filters(price_tick=0.01, qty_step=0.001, min_qty=0.001, min_notional=10.0)
+2025-10-31 14:20:30,283 INFO Bot start. Symbol=BNBUSDT, Interval=15m, RSI=21, Entry<=26.0, Exit>=80.0, Stop=8.0% | Live=False
+2025-10-31 14:25:51,654 INFO Filters: Filters(price_tick=0.01, qty_step=0.001, min_qty=0.001, min_notional=10.0)
+2025-10-31 14:25:51,655 INFO Bot start. Symbol=BNBUSDT, Interval=15m, RSI=21, Entry<=26.0, Exit>=80.0, Stop=8.0% | Live=False
